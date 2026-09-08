@@ -1,5 +1,4 @@
 
-```markdown
 # WinItalPascal - Database
 
 ## Gestione Database SQL Server
@@ -21,7 +20,7 @@ La libreria evita di dover riscrivere continuamente:
 
 Prima di utilizzare le funzioni Database è **necessario** inserire nel file:
 
-```
+```vb
 
 App.config
 
@@ -37,7 +36,7 @@ MiaConnessione
 
 Il nome deve essere esattamente:
 
-```
+```vb
 
 MiaConnessione
 
@@ -60,7 +59,7 @@ Esempio:
 
 Se la connection string non viene trovata verrà generato un errore:
 
-```
+```vb
 Connection string 'MiaConnessione' non trovata in App.config
 ```
 
@@ -269,7 +268,7 @@ Classe alternativa per operazioni database più semplici.
 
 Funzioni disponibili:
 
-```
+```vb
 GetConnection()
 GetDataTable()
 ExecuteScalar()
@@ -340,7 +339,7 @@ DataGVLoad.ApriDGV(
 
 Le classi Database integrano il sistema:
 
-```
+```vb
 FrameworkLogger
 ```
 
@@ -386,7 +385,7 @@ End Sub
 
 La libreria utilizza:
 
-```
+```vb
 System.Data.SqlClient
 ```
 
@@ -407,6 +406,7 @@ README_Reports.md
 README_Forms.md
 README_Logging.md
 README_Popup.md
+README_IPMessageBox.md
 ```
 
 ---
@@ -415,20 +415,14 @@ README_Popup.md
 
 Video dedicato al modulo Database:
 
-```
-Inserire link video Database
-```
+[ video Database](https://www.youtube.com/watch?v=tn6D89N6eV4)
 
 ---
-
 # Repository GitHub
 
-```
-https://github.com/List051/WinItalPascal
-```
+[Repository GitHub](https://github.com/List051/WinItalPascal_Lib)
 
 ---
-
 # Pacchetto NuGet
 
 ```
@@ -441,6 +435,6 @@ WinItalPascal
 
 Utility Library for VB.NET WinForms
 
-Versione documentazione: 2.0.3
+Versione documentazione: 2.0.6
 
 ```

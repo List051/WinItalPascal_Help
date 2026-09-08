@@ -1,6 +1,27 @@
 
-```markdown
-# WinItalPascal
+
+<p align="center">
+  <img src="Logo.png" alt="Ital Pascal Logo" width="220">
+</p>
+
+<h1 align="center">WinItalPascal</h1>
+<p align="center">
+  Libreria di utilità per applicazioni VB.NET WinForms
+</p>
+
+<p align="center">
+  <a href="https://www.nuget.org/packages/WinItalPascal">
+    <img src="https://img.shields.io/nuget/v/WinItalPascal?style=for-the-badge" alt="NuGet Version">
+  </a>
+  <a href="https://www.nuget.org/packages/WinItalPascal">
+    <img src="https://img.shields.io/nuget/dt/WinItalPascal?style=for-the-badge" alt="NuGet Downloads">
+  </a>
+  <a href="https://github.com/List051/WinItalPascal_Lib/blob/main/License.txt">
+    <img src="https://img.shields.io/github/license/List051/WinItalPascal_Lib?style=for-the-badge" alt="License">
+  </a>
+</p>
+
+
 
 ## Libreria di utilità per applicazioni VB.NET WinForms
 
@@ -12,21 +33,20 @@
 
 La libreria raccoglie funzioni comuni normalmente riscritte in ogni progetto:
 
-* gestione database SQL Server;
-* gestione avanzata DataGridView;
-* report RDLC;
-* gestione form;
-* logging;
-* popup;
-* utility grafiche.
-
+> * gestione database SQL Server;
+> * gestione avanzata DataGridView;
+> * report RDLC;
+> * gestione form;
+> * logging;
+> * popup;
+> * utility grafiche.
+> 
 L'obiettivo è fornire codice riutilizzabile, ordinato e facilmente manutenibile.
 
 ---
 
 # 📦 Struttura della Libreria
 
-```
 
 		WinItalPascal
 		
@@ -62,28 +82,25 @@ L'obiettivo è fornire codice riutilizzabile, ordinato e facilmente manutenibile
 	ReportImpostazioni.vb
 	ReportManager.vb
 
-````
-
----
+```vb
 
 # 📦 Installazione
 
 Installazione tramite NuGet:
 
-```powershell
+
 Install-Package WinItalPascal
-````
+
 
 oppure tramite Visual Studio:
 
 ```
+
 Gestione pacchetti NuGet
 → Cerca
 → WinItalPascal
-```
 
 ---
-
 # 🚀 Funzionalità disponibili
 
 ## 🗄 Database
@@ -92,20 +109,20 @@ Modulo per la gestione SQL Server.
 
 Classe principale:
 
-```
+```vb
 DB
 ```
 
 Funzioni disponibili:
 
-* GetConnection;
-* ExecuteScalar;
-* ExecuteNonQuery;
-* ExecuteReader;
-* FillDataTable;
-* FillDataSet;
-* query parametrizzate;
-* gestione connessioni.
+> * GetConnection;
+> * ExecuteScalar;
+> * ExecuteNonQuery;
+> * ExecuteReader;
+> * FillDataTable;
+> * FillDataSet;
+> * query parametrizzate;
+> * gestione connessioni.
 
 Documentazione:
 
@@ -119,19 +136,19 @@ Gestione avanzata DataGridView.
 
 Classe principale:
 
-```
+```vb
 DataGVLoad
 ```
 
 Funzioni disponibili:
 
-* caricamento dati;
-* configurazione automatica colonne;
-* formattazione;
-* gestione colori;
-* ricerca;
-* conversione testo;
-* gestione eventi.
+> * caricamento dati;
+> * configurazione automatica colonne;
+> * formattazione;
+> * gestione colori;
+> * ricerca;
+> * conversione testo;
+> * gestione eventi.
 
 Documentazione:
 
@@ -145,20 +162,21 @@ Gestione centralizzata dei report.
 
 Classi principali:
 
-```
+```vb
 ReportManager
 ReportImpostazioni
 ```
 
 Funzioni disponibili:
 
-* caricamento report RDLC;
-* collegamento DataTable;
-* gestione ReportViewer;
-* stampa;
-* esportazione PDF;
-* query SQL;
-* query parametrizzate.
+> * caricamento report RDLC;
+> * collegamento DataTable;
+> * gestione ReportViewer;
+> * stampa;
+> * esportazione PDF;
+> * query SQL;
+> * query parametrizzate.
+
 
 Documentazione:
 
@@ -191,7 +209,7 @@ Sistema integrato di registrazione eventi.
 
 Classi principali:
 
-```
+```vb
 FrameworkLogger
 LogLeggiScrivi
 ```
@@ -249,19 +267,19 @@ Esempio:
 
 Video dimostrativi della libreria WinItalPascal.
 
-| Video | Argomento             | Link                                                                                                 |
-| ----- | --------------------- | ---------------------------------------------------------------------------------------------------- |
-| #01   | Introduzione libreria | [https://www.youtube.com/watch?v=3FkO8yAd0Mg]                                                                                      |
-| #02   | Database              | [https://www.youtube.com/watch?v=3FkO8yAd0Mg]                                                                                         |
-| #03   | GridUtility           | [https://www.youtube.com/watch?v=DhrGJItaxSk]                                                                                      |
-| #04   | Report RDLC           | [https://www.youtube.com/watch?v=3FkO8yAd0Mg]                                                                                       |
-| #05   | Forms & ScreenUtility | [https://www.youtube.com/watch?v=-Bmwirt68pI]                                                                                       |
-| #06   | Logging               | [https://www.youtube.com/watch?v=3FkO8yAd0Mg]                                                                                         |
-| #07   | Popup e Utility       | [https://www.youtube.com/watch?v=4EyZb3B9hFM]
+| Video | Argomento             | Link                                                                 |
+| ----- | --------------------- | -------------------------------------------------------------------- |
+| #01   | Introduzione libreria | [Apri Video su YouTube](https://www.youtube.com/watch?v=3FkO8yAd0Mg) |
+| #02   | Database              | [Apri Video su YouTube](https://www.youtube.com/watch?v=3FkO8yAd0Mg) |
+| #03   | GridUtility           | [Apri Video su YouTube](https://www.youtube.com/watch?v=DhrGJItaxSk) |
+| #04   | Report RDLC           | [Apri Video su YouTube](https://www.youtube.com/watch?v=3FkO8yAd0Mg) |
+| #05   | Forms & ScreenUtility | [Apri Video su YouTube](https://www.youtube.com/watch?v=-Bmwirt68pI) |
+| #06   | Logging               | [Apri Video su YouTube](https://www.youtube.com/watch?v=3FkO8yAd0Mg) |
+| #07   | Popup e Utility       | [Apri Video su YouTube](https://www.youtube.com/watch?v=4EyZb3B9hFM) |
 
 Canale YouTube:
 
-[https://www.youtube.com/@iaoraGo](https://www.youtube.com/@iaoraGo)
+[Canale @iaoraGo](https://www.youtube.com/@iaoraGo)
 
 ---
 
@@ -269,7 +287,7 @@ Canale YouTube:
 
 Repository ufficiale:
 
-[https://github.com/List051/WinItalPascal](https://github.com/List051/WinItalPascal)
+[Repository GitHub](https://github.com/List051/WinItalPascal_Lib)
 
 ---
 
@@ -277,7 +295,7 @@ Repository ufficiale:
 
 Disponibile su:
 
-[https://www.nuget.org/packages/WinItalPascal](https://www.nuget.org/packages/WinItalPascal)
+[Install da NuGey](https://www.nuget.org/packages/WinItalPascal)
 
 ---
 

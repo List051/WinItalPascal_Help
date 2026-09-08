@@ -1,5 +1,5 @@
 
-```markdown
+
 # WinItalPascal - Forms Utility
 
 ## Gestione Windows Form
@@ -101,7 +101,7 @@ La classe `ScreenUtility` contiene funzioni per la gestione dello schermo.
 
 Funzioni disponibili:
 
-```
+```vb
 FullScreen()
 AdattaCentra()
 ```
@@ -210,13 +210,13 @@ ScreenUtility.AdattaCentra(Me)
 
 Le classi Forms utilizzano:
 
-```
+```vb
 FrameworkLogger
 ```
 
 In caso di errore viene registrato automaticamente:
 
-```
+```vb
 ItalPascal_Log.txt
 ```
 
@@ -231,6 +231,7 @@ README_GridUtility.md
 README_Reports.md
 README_Logging.md
 README_Popup.md
+README_IPMessageBox.md
 ```
 
 ---
@@ -239,17 +240,15 @@ README_Popup.md
 
 Video dedicato al modulo Forms:
 
-```
-https://youtu.be/BsjiVc-j8qs?si=_L_G-_f82vs04tNl
-```
+
+[Video Forms](https://youtu.be/BsjiVc-j8qs?si=_L_G-_f82vs04tNl)
 
 ---
 
 # Repository GitHub
 
-```
-https://github.com/List051/WinItalPascal
-```
+
+[Repository GitHub](https://github.com/List051/WinItalPascal)
 
 ---
 
@@ -265,6 +264,4 @@ WinItalPascal
 
 Utility Library for VB.NET WinForms
 
-Versione documentazione: 2.0.3
-
-```
+Versione documentazione: 2.0.6

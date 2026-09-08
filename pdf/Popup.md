@@ -70,10 +70,7 @@ PopupHelper.HidePopup()
 evita popup sovrapposti.
 
 ---
-
-````markdown
 # WinItalPascal – Popup e Utility
-
 
 ## Introduzione
 
@@ -83,16 +80,15 @@ Il modulo permette di associare finestre popup personalizzate ai controlli dell'
 
 Le caratteristiche principali sono:
 
-* popup automatici al passaggio del mouse;
-* popup manuali;
-* immagini personalizzate;
-* colori configurabili;
-* effetto Fade In;
-* posizionamento automatico vicino al controllo.
+> * popup automatici al passaggio del mouse;
+> * popup manuali;
+> * immagini personalizzate;
+> * colori configurabili;
+> * effetto Fade In;
+> * posizionamento automatico vicino al controllo.
 
 
 ---
-
 # Classe principale
 
 
@@ -287,13 +283,13 @@ PopupForm
 
 Caratteristiche:
 
-* finestra senza bordi;
-* sempre in primo piano;
-* ridimensionamento automatico;
-* supporto immagini;
-* layout dinamico;
-* effetto Fade.
-
+> * finestra senza bordi;
+> * sempre in primo piano;
+> * ridimensionamento automatico;
+> * supporto immagini;
+> * layout dinamico;
+> * effetto Fade.
+> 
 ---
 
 # Posizionamento automatico
@@ -302,9 +298,9 @@ Il popup viene automaticamente posizionato vicino al controllo.
 
 La libreria controlla:
 
-* limite destro dello schermo;
-* limite inferiore dello schermo;
-* posizione minima visibile.
+> * limite destro dello schermo;
+> * limite inferiore dello schermo;
+> * posizione minima visibile.
 
 Se non è possibile mostrarlo sotto il controllo, viene visualizzato sopra.
 
@@ -347,41 +343,46 @@ End Sub
 
 L'utilizzo di `PopupHelper` permette di:
 
-* migliorare l'esperienza utente;
-* aggiungere informazioni contestuali;
-* evitare finestre informative separate;
-* mantenere uniforme lo stile dell'applicazione.
+> * migliorare l'esperienza utente;
+> * aggiungere informazioni contestuali;
+> * evitare finestre informative separate;
+> * mantenere uniforme lo stile dell'applicazione.
 
 ---
 
 # Note tecniche
 
-* Compatibile con controlli WinForms standard e personalizzati.
-* Le immagini vengono normalmente caricate tramite `My.Resources`.
-* La gestione degli errori utilizza `FrameworkLogger`.
-* Il popup attivo viene gestito centralmente dalla libreria.
-
+> * Compatibile con controlli WinForms standard e personalizzati.
+> * Le immagini vengono normalmente caricate tramite `My.Resources`.
+> * La gestione degli errori utilizza `FrameworkLogger`.
+> * Il popup attivo viene gestito centralmente dalla libreria.
+> 
 ---
 
 # 🎬 Video dedicato
 
 **WinItalPascal #07 - Popup e Utility**
 
-📺
+📺 Nell'esempio era una libreria dedicata, ora è incluso in WinItalPascal
 
-[https://youtu.be/4EyZb3B9hFM?si=kW89BimOeiNbdfmU](https://youtu.be/4EyZb3B9hFM?si=kW89BimOeiNbdfmU)
+[Esempio PopUp](https://youtu.be/4EyZb3B9hFM?si=kW89BimOeiNbdfmU)
+
+Esempio in Win Spinnet
+
+[Win PopUp in Win Spinntet](https://www.youtube.com/watch?v=UboNebA_Irs)
+
 
 ---
 
 # 💻 Repository GitHub
 
-[https://github.com/List051/WinItalPascal](https://github.com/List051/WinItalPascal)
+[Repository GitHub](https://github.com/List051/WinItalPascal)
 
 ---
 
 # 📦 Pacchetto NuGet
 
-[https://www.nuget.org/packages/WinItalPascal](https://www.nuget.org/packages/WinItalPascal)
+[Install da NuGet](https://www.nuget.org/packages/WinItalPascal)
 
 ---
 
@@ -395,12 +396,12 @@ Consulta anche:
 * README_Reports.md
 * README_Forms.md
 * README_Logging.md
+* README_IPMessageBox
 * CHANGELOG.md
 
 ---
 
-Versione documentazione: 2.0.3
+Versione documentazione: 2.0.6
 
 **WinItalPascal – Popup e Utility**
 
-```

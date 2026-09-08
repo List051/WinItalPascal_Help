@@ -1,5 +1,4 @@
 
-```markdown
 # WinItalPascal – Logging
 
 
@@ -36,7 +35,7 @@ Bin
 Il sistema Logging comprende:
 
 
-```
+```vb
 
 Logging
 
@@ -338,21 +337,18 @@ Si consiglia di utilizzare:
 
 **WinItalPascal #06 - Logging**
 
-📺
-
-Inserire link video
+[Link video](https://www.youtube.com/watch?v=tn6D89N6eV4)
 
 ---
-
 # 💻 Repository GitHub
 
-[https://github.com/List051/WinItalPascal](https://github.com/List051/WinItalPascal)
+[Repository GitHub](https://github.com/List051/WinItalPascal_Lib)
 
 ---
 
 # 📦 Pacchetto NuGet
 
-[https://www.nuget.org/packages/WinItalPascal](https://www.nuget.org/packages/WinItalPascal)
+[Install da NuGet](https://www.nuget.org/packages/WinItalPascal)
 
 ---
 
@@ -366,12 +362,11 @@ Consulta anche:
 * README_Reports.md
 * README_Forms.md
 * README_Popup.md
+* README_IPMessageBox
 * CHANGELOG.md
 
 ---
 
-Versione documentazione: 2.0.3
+Versione documentazione: 2.0.6
 
 **WinItalPascal – Logging**
-
-```

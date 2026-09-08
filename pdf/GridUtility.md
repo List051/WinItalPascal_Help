@@ -1,7 +1,6 @@
 
 # README_GridUtility.md
 
-```markdown
 # WinItalPascal - GridUtility
 
 ## Gestione avanzata DataGridView per applicazioni VB.NET WinForms
@@ -22,7 +21,7 @@ L'obiettivo è semplificare tutte quelle operazioni che normalmente vengono ripe
 
 Le classi principali sono:
 
-```
+```vb
 
 GridUtility
 GridFilter
@@ -42,7 +41,7 @@ La classe `GridUtility` contiene le funzioni principali per configurare e gestir
 
 Metodo:
 
-```
+```vb
 
 GridUtility.Initialize(DataGridView)
 
@@ -76,7 +75,7 @@ Per griglie dove è necessario inserire nuovi record:
 
 Metodo:
 
-```
+```vb
 GridUtility.InitiaGrid(DataGridView)
 ```
 
@@ -98,7 +97,7 @@ GridUtility.InitiaGrid(ClientiDataGridView)
 
 Metodo:
 
-```
+```vb
 GridUtility.ConvertiMaiuscolo()
 ```
 
@@ -392,7 +391,7 @@ End Sub
 
 Tutte le funzioni della libreria utilizzano:
 
-```
+```vb
 FrameworkLogger
 ```
 
@@ -410,12 +409,9 @@ nella cartella dell'applicazione.
 
 Video dimostrativo GridUtility:
 
-```
-Inserire link video
-```
+[Link video](https://www.youtube.com/watch?v=tn6D89N6eV4)
 
 ---
-
 # Documentazione correlata
 
 ```
@@ -425,6 +421,7 @@ README_Reports.md
 README_Forms.md
 README_Logging.md
 README_Popup.md
+README_IPMessageBox
 ```
 
 ---
@@ -433,6 +430,4 @@ WinItalPascal
 
 Utility Library for VB.NET WinForms
 
-Versione documentazione: 2.0.3
-
-```
+Versione documentazione: 2.0.6

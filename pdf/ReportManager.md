@@ -9,15 +9,14 @@ L'obiettivo è evitare di scrivere codice duplicato in ogni form dell'applicazio
 
 La libreria si occupa di:
 
-* caricamento del file RDLC;
-* collegamento della DataTable;
-* visualizzazione nel ReportViewer;
-* esportazione PDF;
-* stampa;
-* aggiornamento del ReportViewer.
+> * caricamento del file RDLC;
+> * collegamento della DataTable;
+> * visualizzazione nel ReportViewer;
+> * esportazione PDF;
+> * stampa;
+> * aggiornamento del ReportViewer.
 
 ---
-
 # Preparazione del Form Report
 
 Per utilizzare `ReportManager` è necessario creare un Form contenente un controllo **ReportViewer**.
@@ -80,7 +79,6 @@ Bin
 I file **RDLC** devono essere presenti nella cartella **Reports**.
 
 ---
-
 # Classe ReportManager
 
 La classe principale è:
@@ -90,7 +88,6 @@ ReportManager
 ```
 
 ---
-
 ## ApriReport
 
 Carica un report utilizzando una DataTable.
@@ -113,7 +110,6 @@ Parametri
 | DataSourceName | Nome DataSet definito nel file RDLC |
 
 ---
-
 ## ApriReport con Query SQL
 
 È disponibile anche l'overload che esegue direttamente una query SQL.
@@ -142,7 +138,6 @@ ReportManager.ApriReport(
 ```
 
 ---
-
 ## Refresh
 
 Aggiorna il ReportViewer.
@@ -152,7 +147,6 @@ ReportManager.Refresh(ReportViewer1)
 ```
 
 ---
-
 ## Clear
 
 Pulisce il ReportViewer.
@@ -162,7 +156,6 @@ ReportManager.Clear(ReportViewer1)
 ```
 
 ---
-
 ## Stampa
 
 Apre la finestra di stampa del ReportViewer.
@@ -172,7 +165,6 @@ ReportManager.Stampa(ReportViewer1)
 ```
 
 ---
-
 ## EsportaPdf
 
 Esporta il report corrente in formato PDF.
@@ -196,9 +188,7 @@ ReportManager.EsportaPdf(ReportViewer1,False)
 | ReportViewer | Controllo contenente il report |
 | apriPdf | Facoltativo. Se `True` apre automaticamente il PDF al termine dell'esportazione. Il valore predefinito è `True`. |
 
-
 ---
-
 # Utilizzo consigliato
 
 Nel form contenente il ReportViewer.
@@ -218,7 +208,6 @@ End Sub
 ```
 
 ---
-
 # Apertura del Form Report
 
 Dal form chiamante.
@@ -236,7 +225,6 @@ frm.ShowDialog()
 ```
 
 ---
-
 # Query con JOIN
 
 Per report ottenuti da più tabelle è consigliato utilizzare direttamente una query SQL oppure una VIEW.
@@ -268,17 +256,12 @@ FROM vw_OrdiniClienti
 ```
 
 ---
-
 # Note
 
-* I nuovi report utilizzano **DataTable** e non richiedono DataSet tipizzati.
-* Il nome del DataSet presente nel file RDLC deve coincidere con il parametro `DataSourceName` (es. `DataSet1`).
-* Prima di esportare o stampare è necessario aver eseguito `ReportManager.ApriReport(...)`.
-* I file RDLC devono essere copiati nella cartella `Reports` dell'applicazione.
+> * I nuovi report utilizzano **DataTable** e non richiedono DataSet tipizzati.
+> * Il nome del DataSet presente nel file RDLC deve coincidere con il parametro `DataSourceName` (es. `DataSet1`).
+> * Prima di esportare o stampare è necessario aver eseguito `ReportManager.ApriReport(...)`.
+> * I file RDLC devono essere copiati nella cartella `Reports` dell'applicazione.
 
----
-
-Versione documentazione: 2.0.3
-
+Versione documentazione: 2.0.6
 WinItalPascal – ReportManager
-
