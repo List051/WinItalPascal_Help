@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="images\Logo.png" alt="Ital Pascal Logo" width="220">
+  <img src="images/Logo.png" alt="Ital Pascal Logo" width="220">
 </p>
 
 <h1 align="center">WinItalPascal</h1>
