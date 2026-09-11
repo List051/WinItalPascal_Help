@@ -255,6 +255,8 @@ Per la documentazione completa, gli esempi e i video dimostrativi:
 
 👉 [WinItalPascal_Help](https://github.com/List051/WinItalPascal_Help)
 
+*[Anche su questo Repository](https://github.com/List051/WinVideoShowcase)*
+
 🛠 Compatibilità
 .NET Framework 4.8
 VB.NET WinForms
