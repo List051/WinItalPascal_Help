@@ -3,9 +3,9 @@
   <img src="Logo.png" alt="Ital Pascal Logo" width="220">
 </p>
 
-<h1 align="center">WinItalPascal</h1>
+<br>
 <p align="center">
-  Libreria di utilità per applicazioni VB.NET WinForms
+ <h1> Libreria di utilità per applicazioni VB.NET WinForms</h1>
 </p>
 
 
