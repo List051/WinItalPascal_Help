@@ -3,6 +3,87 @@
   <img src="Logo.png" alt="Ital Pascal Logo" width="220">
 </p>
 
+
+<!-- ========================= -->
+<!--   BADGE - MANUAL BUILDER  -->
+<!-- ========================= -->
+
+<div align="center">
+  <strong>📘 WinItalPascal_ManualBuilder</strong>
+</div>
+
+<p align="center">
+
+  <a href="https://github.com/List051/WinItalPascal_ManualBuilder">
+    <img src="https://img.shields.io/github/stars/List051/WinItalPascal_ManualBuilder?style=for-the-badge" alt="MB Stars">
+  </a>
+
+  <a href="https://github.com/List051/WinItalPascal_ManualBuilder">
+    <img src="https://img.shields.io/github/forks/List051/WinItalPascal_ManualBuilder?style=for-the-badge" alt="MB Forks">
+  </a>
+
+  <a href="https://github.com/List051/WinItalPascal_ManualBuilder/issues">
+    <img src="https://img.shields.io/github/issues/List051/WinItalPascal_ManualBuilder?style=for-the-badge" alt="MB Issues">
+  </a>
+
+  <a href="https://github.com/List051/WinItalPascal_ManualBuilder/commits/main">
+    <img src="https://img.shields.io/github/last-commit/List051/WinItalPascal_ManualBuilder?style=for-the-badge" alt="MB Last Commit">
+  </a>
+
+  <a href="https://github.com/List051/WinItalPascal_ManualBuilder/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/List051/WinItalPascal_ManualBuilder?style=for-the-badge" alt="MB License">
+  </a>
+
+</p>
+
+<!-- SEPARATORE -->
+<div align="center" style="font-size:28px; margin: 10px 0;">⬤</div>
+
+<!-- ========================= -->
+<!--   BADGE - LIBRERIA VB.NET -->
+<!-- ========================= -->
+
+<div align="center">
+  <strong>🧩 WinItalPascal_Lib</strong>
+</div>
+
+<p align="center">
+
+  <!-- NuGet -->
+  <a href="https://www.nuget.org/packages/WinItalPascal">
+    <img src="https://img.shields.io/nuget/v/WinItalPascal?style=for-the-badge" alt="NuGet Version">
+  </a>
+
+  <a href="https://www.nuget.org/packages/WinItalPascal">
+    <img src="https://img.shields.io/nuget/dt/WinItalPascal?style=for-the-badge" alt="NuGet Downloads">
+  </a>
+
+  <!-- GitHub -->
+  <a href="https://github.com/List051/WinItalPascal_Lib">
+    <img src="https://img.shields.io/github/stars/List051/WinItalPascal_Lib?style=for-the-badge" alt="Lib Stars">
+  </a>
+
+  <a href="https://github.com/List051/WinItalPascal_Lib">
+    <img src="https://img.shields.io/github/forks/List051/WinItalPascal_Lib?style=for-the-badge" alt="Lib Forks">
+  </a>
+
+  <a href="https://github.com/List051/WinItalPascal_Lib/issues">
+    <img src="https://img.shields.io/github/issues/List051/WinItalPascal_Lib?style=for-the-badge" alt="Lib Issues">
+  </a>
+
+  <a href="https://github.com/List051/WinItalPascal_Lib/commits/main">
+    <img src="https://img.shields.io/github/last-commit/List051/WinItalPascal_Lib?style=for-the-badge" alt="Lib Last Commit">
+  </a>
+
+  <a href="https://github.com/List051/WinItalPascal_Lib/blob/main/License.txt">
+    <img src="https://img.shields.io/github/license/List051/WinItalPascal_Lib?style=for-the-badge" alt="Lib License">
+  </a>
+
+</p>
+
+<!--   FINE BADGE - LIBRERIA VB.NET -->
+---
+
 <br>
 
 <p align="center">
@@ -293,6 +374,37 @@ Grazie a tutti coloro che contribuiscono a migliorare WinItalPascal e a rendere 
 📄 Licenza
 
 MIT License
+
+
+<div align="center">
+  <h2>⭐ Come supportare il progetto</h2>
+  <p>Se questo progetto ti è utile, puoi supportarlo con un semplice gesto:</p>
+
+  <!-- Pulsante Star -->
+  <a href="https://github.com/List051/WinItalPascal_Help">
+    <img src="https://img.shields.io/github/stars/List051/WinItalPascal_Help?style=social" alt="Star this repo">
+  </a>
+
+  <!-- Pulsante Fork -->
+  <a href="https://github.com/List051/WinItalPascal_Help/fork">
+    <img src="https://img.shields.io/github/forks/List051/WinItalPascal_Help?label=fork&style=social" alt="Fork this repo">
+  </a>
+
+  <p>Mettere una ⭐ o fare un Fork aiuta il progetto a crescere e permette ad altri sviluppatori di scoprirlo.</p>
+
+  <br>
+
+  <!-- Pulsante Follow autore -->
+  <p>Vuoi restare aggiornato sui nuovi progetti?</p>
+
+  <a href="https://github.com/List051">
+    <img src="https://img.shields.io/github/followers/List051?label=Follow%20%40List051&style=social" alt="Follow @List051">
+  </a>
+
+  <p>Grazie per il tuo supporto!</p>
+</div>
+
+---
 
 WinItalPascal può essere utilizzato in applicazioni personali, aziendali e commerciali nel rispetto dei termini della licenza MIT.
 
